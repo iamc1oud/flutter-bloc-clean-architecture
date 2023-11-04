@@ -9,7 +9,7 @@ class AuthRepositoryImpl implements AuthRepository {
   final AuthDataSource remoteDataSource = AuthRemoteDataSourceImpl();
   
   @override
-  Future<Either<Failure, OTP>> requestOtp({required String email}) async {
+  Future<Either<Failure, AuthOTP>> requestOtp({required String email}) async {
     try {
       return Right(await remoteDataSource.requestOTP(email: email));
     } on ServerException catch(_) {

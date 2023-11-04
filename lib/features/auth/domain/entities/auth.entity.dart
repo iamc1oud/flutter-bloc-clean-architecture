@@ -1,8 +1,8 @@
-class OTP {
+class AuthOTP {
   final String message;
   final String otp;
 
-  OTP({required this.message, required this.otp});
+  AuthOTP({required this.message, required this.otp});
 }
 
 class BaseResponse {

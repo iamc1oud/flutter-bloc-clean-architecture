@@ -1,6 +1,6 @@
 import 'package:flutter_template/features/auth/domain/entities/auth.entity.dart';
 
-class RequestOTPModel extends OTP {
+class RequestOTPModel extends AuthOTP {
   RequestOTPModel({required String message, required String otp})
       : super(message: message, otp: otp);
 

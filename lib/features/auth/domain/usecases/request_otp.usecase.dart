@@ -6,10 +6,10 @@ import 'package:flutter_template/features/auth/data/repositories/auth_repository
 import 'package:flutter_template/features/auth/domain/entities/auth.entity.dart';
 import 'package:flutter_template/shared/global_contexts.dart';
 
-class RequestOTP implements UseCase<OTP, RequestOTPCommand> {
+class RequestOTP implements UseCase<AuthOTP, RequestOTPCommand> {
   final authRepository = AuthRepositoryImpl();
   @override
-  Future<Either<Failure, OTP>?> call(RequestOTPCommand params) async {
+  Future<Either<Failure, AuthOTP>?> call(RequestOTPCommand params) async {
     return await getIt.get<AuthRepositoryImpl>().requestOtp(email: params.email);
   }
 }

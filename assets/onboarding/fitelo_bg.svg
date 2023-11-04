@@ -1,0 +1,18 @@
+<svg width="360" height="800" viewBox="0 0 360 800" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g filter="url(#filter0_f_0_1)">
+    <ellipse cx="253.5" cy="110" rx="322.5" ry="311" fill="url(#paint0_linear_0_1)"/>
+    </g>
+    <circle cx="349.5" cy="-19.5" r="155.5" fill="#99E8D3"/>
+    <rect x="38" y="64" width="275" height="350" fill="url(#pattern0)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M-97.8031 324.434C-96.9643 321.279 -95.9078 318.187 -94.6413 315.177C-82.035 314.168 -69.3612 316.143 -57.6542 320.94C-45.9471 325.737 -35.5383 333.222 -27.2767 342.782C-19.0152 352.343 -13.135 363.709 -10.1157 375.954C-7.09652 388.199 -7.02375 400.975 -9.90354 413.24C-10.1156 414.031 -10.3215 414.8 -10.5093 415.501C-10.8364 416.722 -11.1635 417.942 -11.4846 419.141C-12.5926 419.28 -13.6946 419.397 -14.7844 419.468C0.807119 418.453 15.6872 412.638 27.8009 402.828C39.9146 393.018 48.6643 379.696 52.8415 364.703C63.5575 324.71 38.5101 283.324 -3.06152 272.185C-41.3183 261.935 -80.2767 280.912 -94.5899 315.167C-95.8744 318.178 -96.948 321.275 -97.8031 324.434Z" fill="#FADDCC"/>
+    <defs>
+    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+    <use xlink:href="#image0_0_1" transform="matrix(0.000589226 0 0 0.000462963 -0.136364 0)"/>
+    </pattern>
+    <linearGradient id="paint0_linear_0_1" x1="253.5" y1="-201" x2="253.5" y2="421" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FF8643"/>
+    <stop offset="1" stop-color="#FF8643" stop-opacity="0"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
